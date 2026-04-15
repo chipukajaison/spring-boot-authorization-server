@@ -103,6 +103,7 @@ public class SecurityConfiguration {
         return NoOpPasswordEncoder.getInstance();
     }
 
+    /**
     @Bean
     public RegisteredClientRepository registeredClientRepository() {
         RegisteredClient registeredClient = RegisteredClient.withId(UUID.randomUUID().toString())
@@ -123,6 +124,7 @@ public class SecurityConfiguration {
 
         return new InMemoryRegisteredClientRepository(registeredClient);
     }
+     */
 
     @Bean
     public AuthorizationServerSettings authorizationServerSettings() {
