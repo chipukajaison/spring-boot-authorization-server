@@ -18,7 +18,15 @@
         <license/>
     </licenses>
     <developers>
-        <developer/>
+        <developer>
+            <id>jaison.chipuka</id>
+            <name>Jaison Chipuka</name>
+            <email>jaison.chipuka@outlook.com</email>
+            <timezone>Africa/Harare</timezone>
+            <roles>
+                <role>Software Developer</role>
+            </roles>
+        </developer>
     </developers>
     <scm>
         <connection/>
@@ -36,7 +44,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-oauth2-authorization-server</artifactId>
+            <artifactId>spring-boot-starter-security-oauth2-authorization-server</artifactId>
         </dependency>
 
         <dependency>
